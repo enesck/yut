@@ -1,0 +1,49 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#logo {
+	width: 160px;
+	height: 126px;
+
+	position: absolute;
+	left: 0;
+}
+
+.button {
+	color: blue;
+	background-color: red;
+	
+	font-size: 28px;
+
+	position: relative;
+	float: right;
+	margin-right: 4px;
+}
+
+#centeredheader {
+	text-align: center;
+	height: 126px;
+}
+
+#homepageheader	{
+	background-color: black;
+	font-size: 64px;
+	color: #00BFFF;
+}
+
+#title {
+	background-color: #4B0082;
+	font-size: 50px;
+
+	font-family: 'impact';
+
+}
+
+@font-face {
+  font-family: 'impact';
+  src: url('<%= asset_path("impact.ttf") %>');
+  font-weight: normal;
+  font-style: normal;
+}
